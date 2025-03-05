@@ -6,7 +6,7 @@ namespace AIPdfScanner
 {
     class OpenAIService
     {
-        private string apiKey = "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";
+        private string apiKey = "YOURAPIKEY";
         public async Task<string> GetChatGPTResponse(string text)
         {
             try
